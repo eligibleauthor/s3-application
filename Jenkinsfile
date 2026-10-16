@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Hello my world'
+                echo 'Hello world! This will trigger a build!'
             }
         }
     }
